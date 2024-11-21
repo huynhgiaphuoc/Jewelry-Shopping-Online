@@ -1,0 +1,858 @@
+﻿/* PC */
+@media (min-width: 64em) {
+    /* Layout */
+    .notificati{
+        right: 6%;
+    }
+
+    /* Gold */
+    .btn--submit--gold {
+        left: 42.7em;
+    }
+
+    /* Item */
+    .btn--search--item {
+        top: 17.4%;
+        left: 23%;
+        width: 15%;
+    }
+
+    .btn--submit--item {
+        left: 39%;
+    }
+}
+
+/* Tablet */
+@media(min-width: 46.25em) and (max-width: 63.9375em) {
+    /* Layout */
+    .containers {
+        width: 100%;
+        height: 100% !important;
+        grid-template-columns: 36rem auto auto;
+        padding: 0;
+        display: block;
+    }
+
+    .asider {
+        position: absolute;
+        background-color: var(--color-white);
+        width: 15rem;
+        z-index: 3;
+        box-shadow: 1rem 3rem 4rem var(--color-light);
+        height: 100%;
+        left: -100%;
+        display: none;
+        animation: showMenu 0.4s ease forwards;
+    }
+
+    @keyframes showMenu {
+        to {
+            left: 0;
+        }
+    }
+
+    .asider .logo {
+        margin-left: 1rem;
+    }
+
+    .asider .logo h2 {
+        display: inline;
+    }
+
+    .asider .sidebar h3 {
+        display: inline;
+        margin-top: .7em;
+    }
+
+    .asider .sidebar {
+        height: 130%;
+    }
+
+    .asider .sidebar a {
+        width: 100%;
+        height: 3.4rem;
+    }
+
+    .asider .sidebar a:last-child {
+        position: relative;
+        bottom: 0;
+    }
+
+    .asider .toggle .close {
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    .main {
+        margin-top: 8rem;
+        padding: 0;
+    }
+
+    .main .new-users .user-list .user {
+        flex-basis: 35%;
+    }
+
+    .main .recent-orders {
+        position: relative;
+        margin: 3rem 0 0 0;
+        width: 100%;
+    }
+
+    .main .recent-orders table {
+        width: 100%;
+        margin: 0;
+    }
+
+    .right-section {
+        width: 94%;
+        margin: 0 auto 4rem;
+    }
+
+    .right-section {
+        margin-left: 2.5em;
+        margin-top: 3em;
+    }
+
+    .right-section .nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        align-items: center;
+        background-color: var(--color-white);
+        padding: 0 var(--padding-1);
+        height: 4.6rem;
+        width: 100%;
+        z-index: 2;
+        box-shadow: 0 1rem 1rem var(--color-light);
+        margin: 0;
+    }
+
+    .mode {
+        height: 0;
+        margin-top: -1.4em;
+    }
+
+    .right-section .nav .dark-mode {
+        width: 4.4rem;
+        position: absolute;
+        left: 66%;
+    }
+
+    .right-section .nav button {
+        display: inline-block;
+        background-color: transparent;
+        cursor: pointer;
+        color: var(--color-dark);
+        position: absolute;
+        left: 1rem;
+    }
+
+    .right-section .nav button span {
+        font-size: 2rem;
+    }
+
+    .profile-photo {
+        margin-top: 1.2em;
+    }
+
+    .notificati {
+        right: 5%;
+    }
+
+    .container--left {
+        height: 100% !important;
+    }
+
+    /* Manager */
+    .btn--login--admin {
+        width: 20%;
+    }
+
+    .btn--search {
+        top: 8.65em;
+        left: 13em;
+        width: 31%;
+    }
+
+    hr {
+        width: 90%;
+    }
+
+    .btn--submit--admin {
+        top: 8.7em;
+        left: 30.5em;
+    }
+    /* Customer */
+    .btn--search--customer {
+        left: 11em;
+    }
+
+    .btn--submit--customer {
+        left: 28.5em;
+    }
+
+    /* Gold */
+    .btn--gold {
+        left: 18.5%;
+    }
+
+    .btn--submit--gold {
+        left: 50.5%;
+        top: 11.9%;
+    }
+
+    /* Pro */
+    .btn--search--pro {
+        left: 18%;
+    }
+
+    .btn--submit--pro {
+        left: 49.7%;
+    }
+
+    /* Jewel */
+    ._gold {
+        width: 100%;
+    }
+
+    .btn--jewel {
+        left: 16.5%;
+    }
+
+    .btn--submit--jewel {
+        left: 48.5%;
+    }
+
+    /* StoneMst */
+    .btn--search--stone {
+        left: 16.5%;
+    }
+
+    .btn--submit--stone {
+        left: 48.5%;
+    }
+
+    /* Stone Qlty */
+    .btn--search--qlty {
+        left: 21%;
+        width: 32.8%;
+    }
+
+    /* Inquiry */
+    .btn--search--inquiry {
+        top: 0;
+        left: 0;
+    }
+
+    .btn--submit--inquiry {
+        top: 12%;
+        left: 36%;
+    }
+
+    /* Home General */
+    .drap--home--admin {
+        margin-bottom: 2em;
+    }
+
+    .edit--admin {
+        height: auto;
+    }
+
+    .eye-icon--current,
+    .eye-icon--news,
+    .eye-icon--confirm {
+        right: 8%;
+    }
+
+    .eye-icon--current {
+        top: 16.5%;
+    }
+
+    .eye-icon--news {
+        top: 41%;
+    }
+
+    .eye-icon--confirm {
+        top: 65%;
+    }
+    /* Branch */
+    .btn--brand {
+        width: 50%;
+    }
+
+    .btn--search--brand {
+        left: 18%;
+    }
+
+    .btn--submit--brand {
+        left: 50.2%;
+    }
+    /* Cart List */
+    .btn_form_list {
+        width: 13em;
+    }
+
+    .inf_ {
+        display: block !important;
+    }
+
+    .img_edit_cus {
+        width: 100%;
+    }
+
+    .btn_form_list_1 {
+        width: 13em;
+    }
+
+    ._contains {
+        left: 5em;
+        width: 800px !important;
+        margin: 0 80px !important;
+        position: relative;
+    }
+
+    ._containss {
+        width: 800px;
+        left: 0 !important;
+    }
+
+    .img_edit_cus {
+        width: 100%;
+    }
+
+    .esit_space {
+        left: 0;
+    }
+
+    .text_order {
+        font-size: 16px;
+    }
+
+    .contain_1 {
+        height: 41em;
+    }
+
+    .contain_2 {
+        height: 40em;
+    }
+
+    .btn_form_list {
+        left: -20px;
+    }
+
+    .tablet-edit-cart {
+        position: relative;
+        top: 90px;
+    }
+
+    .text_or p {
+        font-size: 16px;
+    }
+
+    .edit_text_edit {
+        font-size: 16px;
+    }
+    /* Payment */
+    .btn_form_list_p {
+        width: 13em;
+    }
+
+    .btn_create {
+        left: 19% !important;
+    }
+
+    .edit_pay {
+        padding: 94px 0 0 0;
+    }
+
+    .edit_text_pay h3 {
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .edit_text_pay p {
+        top: 20px;
+        position: relative;
+    }
+
+    .edit_btn_pay {
+        padding: 130px 10px 0 0;
+    }
+    /* Orderdetails */
+    .edit_btn_or {
+        margin-top: 140px;
+    }
+
+    .edit_name_order {
+        margin-top: 30px;
+        display: flex !important;
+        width: 100%;
+        text-align: center;
+    }
+
+    .edit_details_ {
+        padding: 100px 0 0 0;
+    }
+
+    /* Dim */
+    .btn--search--dim {
+        left: 20%;
+    }
+
+    .btn--submit--dim {
+        left: 52.5%;
+    }
+
+    .tablet--uncart {
+        top: 0;
+    }
+
+    /* Category */
+    .delete--category {
+        width: 50%;
+    }
+    /*Dashbroad*/
+    .lettop {
+        margin-top: 7em;
+    }
+
+    ._total_ {
+        width: 4em;
+        height: 26px;
+    }
+
+    ._txt_ {
+        font-size: large;
+    }
+
+    ._totinm_ {
+        font-size: large;
+    }
+
+    .editcolor_ {
+        margin: 2em 0 0 1em;
+    }
+
+    .edit_dash {
+        margin-left: 2.5em !important;
+    }
+    .edit_dashtable{
+        margin-left: 0;
+    }
+
+    /* Item */
+    .btn--search--item {
+        top: 11.8%;
+        left: 16%;
+        width: 30%;
+    }
+
+    .btn--submit--item {
+        left: 47.5%;
+    }
+}
+
+
+    /* Mobile */
+@media(max-width: 46.25em) {
+    /* Layout */
+    .containers {
+        width: 100%;
+        grid-template-columns: 1fr;
+        padding: 0;
+    }
+
+    .asider {
+        position: absolute;
+        background-color: var(--color-white);
+        width: 15rem;
+        z-index: 3;
+        box-shadow: 1rem 3rem 4rem var(--color-light);
+        height: 100%;
+        left: -100%;
+        display: none;
+        animation: showMenu 0.4s ease forwards;
+    }
+
+    @keyframes showMenu {
+        to {
+            left: 0;
+        }
+    }
+
+    .asider .logo {
+        margin-left: 1rem;
+    }
+
+        .asider .logo h2 {
+            display: inline;
+        }
+
+    .asider .sidebar h3 {
+        display: inline;
+        margin-top: .7em;
+    }
+
+    .asider .sidebar {
+        height: 130%;
+    }
+
+        .asider .sidebar a {
+            width: 100%;
+            height: 3.4rem;
+        }
+
+            .asider .sidebar a:last-child {
+                position: relative;
+                bottom: 0;
+            }
+
+    .asider .toggle .close {
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    .main {
+        margin-top: 8rem;
+        padding: 0;
+    }
+
+        .main .new-users .user-list .user {
+            flex-basis: 35%;
+        }
+
+        .main .recent-orders {
+            position: relative;
+            margin: 3rem 0 0 0;
+            width: 100%;
+        }
+
+            .main .recent-orders table {
+                width: 100%;
+                margin: 0;
+            }
+
+    .right-section {
+        width: 94%;
+        margin: 0 auto 4rem;
+    }
+
+    .right-section {
+        margin-left: 1em;
+    }
+
+        .right-section .nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            align-items: center;
+            background-color: var(--color-white);
+            padding: 0 var(--padding-1);
+            height: 4.6rem;
+            width: 100%;
+            z-index: 2;
+            box-shadow: 0 1rem 1rem var(--color-light);
+            margin: 0;
+        }
+
+    .mode {
+        height: 0;
+        margin-top: -1.4em;
+    }
+
+    .right-section .nav .dark-mode {
+        width: 4.4rem;
+        position: absolute;
+        left: 66%;
+    }
+
+    .right-section .nav button {
+        display: inline-block;
+        background-color: transparent;
+        cursor: pointer;
+        color: var(--color-dark);
+        position: absolute;
+        left: 1rem;
+    }
+
+        .right-section .nav button span {
+            font-size: 2rem;
+        }
+
+    .profile-photo {
+        margin-top: 1.2em;
+    }
+
+    .notificati {
+        right: 6%;
+    }
+    /* Manager */
+    .btn--search {
+        top: 16.4%;
+        left: 37%;
+        width: 41%;
+    }
+
+    .btn--submit--admin {
+        top: 16.55%;
+        left: 80%;
+    }
+
+    hr {
+        width: 93%;
+    }
+
+    .name--admin {
+        margin-top: 1em;
+    }
+
+    .mt--btn {
+        margin-top: 1em;
+    }
+
+    .container--left {
+        margin-left: 0;
+    }
+
+    .title--admin {
+        margin-left: .7em;
+    }
+
+    .mx-5 {
+        margin-left: 1.1em !important;
+    }
+
+    .search--group {
+        margin-left: 1em;
+    }
+
+    /* Customer */
+    .btn--search--customer {
+        left: 9em;
+        width: 47%;
+    }
+
+    .btn--submit--customer {
+        left: 23.5em;
+    }
+
+    /* Gold */
+    .btn--gold {
+        left: 27%;
+        width: 51.2%;
+    }
+
+    ._gold {
+        width: 99.5%;
+    }
+
+    .btn--td--gold {
+        width: 100%;
+        margin-left: 0;
+    }
+    /* Pro */
+    .btn--search--pro {
+        left: 26.5%;
+        width: 51.5%;
+    }
+
+    /* Jewel */
+    .btn--jewel {
+        left: 23%;
+        width: 55.5%;
+    }
+
+    .btn--td--gold {
+        width: 100%;
+    }
+
+    .sub--title {
+        margin-left: 1em;
+    }
+
+    /* StoneMst */
+    .btn--search--stone {
+        left: 23.5%;
+        width: 50%;
+    }
+
+    .btn--submit--stone {
+        left: 75.5%;
+    }
+
+    /* Stone Qlty */
+    .btn--search--qlty {
+        left: 31%;
+        width: 47%;
+    }
+
+    /* Inquiry */
+    .btn--search--inquiry {
+        left: 0;
+    }
+
+    .btn--submit--inquiry {
+        left: 58%;
+        top: 16.7%;
+    }
+
+    /* News */
+    .btn--search--news {
+        left: 45%;
+    }
+
+    /* Home General */
+    .drap--home--admin {
+        margin-bottom: 3em;
+    }
+
+    /* Branch */
+    .btn--search--brand {
+        left: 26%;
+        width: 51.5%;
+    }
+    /* Cart List */
+    ._containss {
+        left: 0;
+    }
+
+    .contain_1 {
+        padding: 10px !important;
+    }
+
+    .text_order {
+        padding: 0 !important;
+    }
+
+    .text_order h3 {
+        top: 20px;
+        position: relative;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    ._containp {
+        left: 0;
+    }
+
+    ._containo {
+        left: 1em;
+    }
+
+    .text_order p {
+        padding: 30px 0 0 0;
+    }
+
+    img_edit_cus {
+        height: 27em !important;
+    }
+
+    .payment_method {
+        text-align: left;
+        padding: 60px 0 0 0;
+    }
+
+    .mr-btn {
+        width: 12em;
+        margin: 0 20px 0 80px;
+    }
+
+    .tablet-edit-cart {
+        margin-top: 40px;
+    }
+
+    .inf_ {
+        display: block !important;
+    }
+    /* Payment */
+    .btn_create {
+        left: 27% !important;
+    }
+    /* Orderdetails */
+    .edit_name_order p {
+        padding: 19px 0 0 20px
+    }
+
+    .edit_btn_or {
+        margin-top: 58px;
+        width: 150px;
+    }
+
+    /* Dim */
+    .btn--search--dim {
+        left: 30%;
+    }
+
+    .btn--submit--dim {
+        left: 74%;
+    }
+
+    /* Notify */
+    .btn--submit--notify--mobile {
+        left: 45%;
+    }
+
+    .location--notify--mobile {
+        margin-left: 37%;
+    }
+    /* DashBroad*/
+    .lettop {
+        margin-top: 6em;
+        margin-left: 1em;
+    }
+
+    ._txt_ {
+        font-size: large;
+        padding: 13px 0 0 10px;
+}
+    ._mbl_{
+        flex-wrap: unset !important;
+    }
+    ._total_ {
+        width: 5em;
+        margin: 10px 10px 0 0;
+    }
+    .editcolor_ {
+        margin: 2em 0 0 1.9em;
+    }
+    .mobile_dash{
+        margin-left: 3em;
+    }
+    .edit_dash {
+        margin-left: 1.5em !important;
+    }
+    .edit_dashtable {
+        margin-left: 0;
+    }
+
+    /* Item */
+    .btn--search--item {
+        top: 16.4%;
+        left: 22%;
+        width: 55%;
+    }
+
+    .btn--submit--item {
+        left: 80%;
+    }
+
+    /* General */
+    .eye-icon--current,
+    .eye-icon--news,
+    .eye-icon--confirm {
+        right: 8%;
+    }
+
+    .eye-icon--current {
+        top: 13.5%;
+    }
+
+    .eye-icon--news {
+        top: 34.5%;
+    }
+
+    .eye-icon--confirm {
+        top: 55%;
+    }
+
+}

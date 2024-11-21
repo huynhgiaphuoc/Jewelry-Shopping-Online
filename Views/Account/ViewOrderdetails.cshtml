@@ -1,0 +1,55 @@
+﻿@model List<Jewelly.Models.MyPurchase>
+@{
+    ViewBag.Title = "ViewOrderdetails";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+
+}
+
+@if (Session["userID"] == null)
+{
+    <h1>Please Login !!!</h1>
+}
+else if (Session["userID"] != null)
+{
+<div>
+    <a href="/Account/mypurchase/@Session["userID"]" class="back_button"><i class="fa-solid fa-arrow-left"></i></a>
+</div>
+
+    <div class="container">
+        <div class="contain__order">
+            @foreach(var item in Model)
+            {
+                <a href="/Product/Details?id=@item.ID" class="edit_para">
+                    <div class="form_include">
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="infor_basic">
+                                        <img src="@item.Path@item.Image" width="100px" class="edit_img" />
+                                        <p class="edit_distance">@item.Name</p>
+
+                                    </div> <p class="distance_quantity">Total quantity: x @item.quantity</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <p class="edit_right  space_price">Total: @item.le $</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <hr />
+                    </div>
+                </a>
+
+               
+            }
+        </div>
+
+
+
+    </div>
+}
+
+
+
+
